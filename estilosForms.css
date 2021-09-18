@@ -1,0 +1,48 @@
+body{
+	background: indianred;
+}
+form{
+	margin: 0 auto;
+	background: darkred;
+	width: 500px;
+	margin-top: 250px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.campos{
+	margin-top: 15px;
+}
+#botones{
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+form label{
+	float: left;
+	width: 150px;
+	color: whitesmoke;
+}
+
+form input{
+	width: 200px;
+}
+
+form textarea{
+	width: 200px;
+	height: 100px;
+}
+
+form input[type="submit"], form input[type="reset"]{
+	width: 100px;
+	background-color: papayawhip;
+	border-color: papayawhip;
+	color: black;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover{
+	background-color: whitesmoke;
+	color: palevioletred;
+	border-color: whitesmoke;
+}

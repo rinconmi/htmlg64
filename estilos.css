@@ -1,0 +1,30 @@
+body{
+	background: indianred;
+}
+
+h1{
+	color: palegreen;
+	text-align: center;
+}
+
+p{
+	color: white;
+	margin: 50px;
+	margin-top: 100px;
+	margin-right: 500px;
+}
+
+#parrafo1{
+	color: orangered;
+	border: 5px double cadetblue;
+	border-radius: 8px;
+}
+
+.parrafo{
+	font-family: "verdana",¨helvetica";	
+}
+
+#caja a{
+	color: floralwhite;
+	text-decoration-line: none;
+}

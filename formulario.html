@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="contacto.html" method="Post">
+		<p>
+			<label>Nombre:</label>
+			<input type="text" name="nombre" size="20" maxlength="5">
+		</p>
+		<p>
+			<label>¿Desea que le enviemos información?</label>
+			<input type="radio" name="info" value="si" checked="">Si
+			<input type="radio" name="info" value="no">No
+		</p>
+		<p>
+			<label>Sistemas Operativos</label>
+			<input type="checkbox" name="winXp" value="winxp">Windows Xp
+			<input type="checkbox" name="win7" valus="win7">Windows 7
+			<input type="checkbox" name="win10" value="win10">Windows 10
+		</p>
+		<p>
+			<label>Facultades</label>
+			<select name="Facultad">
+				<option value="1">Electronica</option>
+				<option value="1">Contaduria</option>
+				<option value="1">Sistemas</option>
+			</select>
+		</p>
+		<p>
+			<label>Contraseña</label>
+			<input type="password" name="pass" size="20">
+		</p>
+		<p>
+			<label>Mensaje</label>
+			<textarea name="mensaje" rows="5" cols="20"></textarea>
+		</p>
+		<p>
+			<input type="submit">
+			<input type="reset">
+		</p>
+	</form>
+
+</body>
+</html>
